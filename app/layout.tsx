@@ -14,6 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Debjit Roy</title>
+        <meta name="description" content="See My Portfolio and connect with me" />
+      </head>
       <body>{children}</body>
     </html>
   )
