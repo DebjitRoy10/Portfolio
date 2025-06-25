@@ -230,14 +230,9 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge>React</Badge>
-                  <Badge>Next.js</Badge>
                   <Badge>JavaScript</Badge>
-                  <Badge>TypeScript</Badge>
                   <Badge>HTML5</Badge>
                   <Badge>CSS3</Badge>
-                  <Badge>Tailwind CSS</Badge>
-                  <Badge>Shadcn UI</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -264,24 +259,6 @@ export default function Portfolio() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Zap className="h-5 w-5 text-blue-600" />
-                  Backend Development
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  <Badge>Node.js</Badge>
-                  <Badge>Express.js</Badge>
-                  <Badge>MongoDB</Badge>
-                  <Badge>SQL</Badge>
-                  <Badge>Firebase</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
                   <Code className="h-5 w-5 text-blue-600" />
                   Tools & Others
                 </CardTitle>
@@ -290,11 +267,8 @@ export default function Portfolio() {
                 <div className="flex flex-wrap gap-2">
                   <Badge>Git</Badge>
                   <Badge>GitHub</Badge>
-                  <Badge>Figma</Badge>
                   <Badge>VS Code</Badge>
                   <Badge>MATLAB</Badge>
-                  <Badge>Python</Badge>
-                  <Badge>UI/UX Design</Badge>
                 </div>
               </CardContent>
             </Card>
